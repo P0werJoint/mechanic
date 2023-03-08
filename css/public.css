@@ -1,0 +1,164 @@
+body {
+    background-color: #191919;
+    color: #0081AF;
+    font: bold 1rem/1 poppins;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #121212;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font: bold 1rem/1 poppins;
+}
+
+.activel {
+  background-color: #0081AF;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.activem {
+  background-color: #0081AF;
+  border-radius: 10px;
+}
+
+.activer {
+  background-color: #0081AF;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.centertxt {
+    text-align: center;
+}
+
+.img {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+}
+
+.white {
+    color: white;
+}
+.black {
+  color: black;
+}
+.grey {
+  color: #808080;
+}
+
+.main{
+  margin-top: 5%;
+}
+
+.map{
+  margin-top: 2%;
+}
+
+.faqs{
+  margin-top: 100px;
+}
+
+/* temp */
+
+.form-control:focus {
+  border-color: #0081AF;
+  box-shadow: 0 0 8px rgb(0, 46, 63);
+}
+.contact-modal {
+  width: 600px;
+  padding: 50px;
+  margin: 30px auto;
+}
+.contact-modal h4 {
+  font-size: 26px;
+  color: #0081AF;
+  display: inline-block;
+}
+.contact-modal .form-control, .contact-modal .btn  {
+  min-height: 38px;
+  border-radius: 1px;
+  outline: none;
+}
+.contact-modal .btn-primary {
+  min-width: 100px;
+  background: #0081AF;
+  border: none;
+}
+.contact-modal .btn-primary:hover {
+  background: rgb(0, 87, 119);
+}
+.contact-modal .btn-primary:focus {
+  box-shadow: 0 0 8px #0081AF;
+}
+.contact-modal .btn-link {
+  color: #0081AF;
+}
+.contact-modal label {
+  opacity: 0.9;
+  font-weight: normal;
+  font-size: 95%;
+}
+.contact-modal textarea {
+  resize: vertical;
+}
+.contact-modal.modal-dialog {
+  width: 480px;
+}
+.contact-modal .modal-header {
+  padding: 20px 35px 14px;
+}
+.contact-modal .modal-content {
+  background-color: #191919;
+  border-color: #0081AF;
+  border-radius: 1px;
+}
+.contact-modal .close {
+  color: #0081AF;
+  position: absolute;
+  right: 35px;
+  top: 25px;
+}
+.contact-modal .modal-body {
+  padding: 20px 35px 35px;
+}
+.hint-text {
+  opacity: 0.8;
+}
+.trigger-btn {
+  display: inline-block;
+  margin: 100px auto;
+}
