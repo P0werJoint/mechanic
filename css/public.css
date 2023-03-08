@@ -162,3 +162,33 @@ li a {
   display: inline-block;
   margin: 100px auto;
 }
+
+/*update*/
+
+.input {
+  color: white;
+  background-color: #242424;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-color: #0081AF;
+  border-style: solid;
+  border-radius: 3px;
+}
+
+.container-login {
+  margin-top: 10%;
+}
+
+.error{
+  background-color: #191919;
+  color: red;
+  text-align: center;
+  width: 50%;
+  padding: 5px;
+  border: 2px solid red;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}

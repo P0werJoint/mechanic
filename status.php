@@ -1,3 +1,12 @@
+<?php
+session_start();
+if( !isset($_SESSION['user']) ){
+    header("location:/login.php");
+    echo "<h3 style= 'text-align: center; padding: 20% 0;'>Nothing for you to see here...</h3>";
+    die();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,10 +28,14 @@
     </ul>
 
     <div class="main">
-        
-        <h1 class="centertxt">Status</h1>
-        <h2 class="centertxt white">temp</h2>
 
+    <h1 class="centertxt">TimeLine</h1>
+
+     <?php
+     echo "<h3 class='centertxt white'>Welcome back, Mister Doctor Wise Mastah ".$_SESSION['user']."<h3>";
+     ?>
+     
+    <button class="center btn btn-primary"  onclick="location.href='/php/logout.php'">Logout</button>
     </div>
 
     <div class="footer">
