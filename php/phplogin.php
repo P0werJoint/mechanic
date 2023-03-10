@@ -4,7 +4,7 @@ session_start();
 $servername = "localhost";
 $db_user = "root";
 $db_pass = "";
-$db_name = "temp";
+$db_name = "test";
 
 $conn = mysqli_connect($servername, $db_user, $db_pass, $db_name);
 
@@ -12,7 +12,7 @@ if(!$conn){
     die("Conexão falhada: " . mysqli_connect_error());
 }
 
-mysqli_select_db($conn, "temp");
+mysqli_select_db($conn, "test");
 
 
 $nif = $_POST['nif'];

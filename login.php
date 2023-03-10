@@ -13,7 +13,7 @@
 
     <ul>
             <li><a href="index.html">Mechanic</a></li>
-            <li><a class="activel">Check your car Status!</a></li>
+            <li><a class="activem">Check your car Status!</a></li>
             <li><a href="us.html">Find Us</a></li>
             <li style="float:right"><a href="help.html">FAQ</a></li>
     </ul>

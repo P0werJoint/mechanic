@@ -29,10 +29,10 @@ if( !isset($_SESSION['user']) ){
 
     <div class="main">
 
-    <h1 class="centertxt">TimeLine</h1>
+    <h1 class="centertxt">Timeline</h1>
 
      <?php
-     echo "<h3 class='centertxt white'>Welcome back, Mister Doctor Wise Mastah ".$_SESSION['user']."<h3>";
+     echo "<h3 class='centertxt white'>Welcome back,  ".$_SESSION['user']."<h3>";
      ?>
      
     <button class="center btn btn-primary"  onclick="location.href='/php/logout.php'">Logout</button>
