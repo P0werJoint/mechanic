@@ -33,6 +33,7 @@ if( !isset($_SESSION['user']) ){
 
      <?php
      echo "<h3 class='centertxt white'>Welcome back,  ".$_SESSION['user']."<h3>";
+     // Andre faz acaba de fazer o timeline.php para ontem
      ?>
      
     <button class="center btn btn-primary"  onclick="location.href='/php/logout.php'">Logout</button>
