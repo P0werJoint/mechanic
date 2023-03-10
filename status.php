@@ -20,11 +20,11 @@ if( !isset($_SESSION['user']) ){
 <body>
     <link href="https://fonts.googleapis.com/css?family=Poppins:600" rel="stylesheet">
 
-    <ul>
-            <li><a href="index.html">Mechanic</a></li>
-            <li><a class="activem">Check your car Status!</a></li>
-            <li><a href="us.html">Find Us</a></li>
-            <li style="float:right"><a href="help.html">FAQ</a></li>
+    <ul class="ul">
+            <li class="li"><a class="lia">Mechanic</a></li>
+            <li class="li"><a class="activem lia" href="status.php">Check your car Status!</a></li>
+            <li class="li"><a class="lia" href="us.html">Find Us</a></li>
+            <li class="li" style="float:right"><a class="lia" href="help.html">FAQ</a></li>
     </ul>
 
     <div class="main">
