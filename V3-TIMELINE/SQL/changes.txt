@@ -1,0 +1,48 @@
+//third
+CREATE TABLE TimeLineCustom (
+	TLCID int NOT NULL,
+	TLDID int NOT NULL,
+    name varchar(255) NOT NULL,
+	steps int NOT NULL,
+    step1 varchar(255),
+    step2 varchar(255),
+    step3 varchar(255),
+    step4 varchar(255),
+    step5 varchar(255),
+    step6 varchar(255),
+    step7 varchar(255),
+    step8 varchar(255),
+    step9 varchar(255),
+    step10 varchar(255),
+    PRIMARY KEY (TLTID),
+    FOREIGN KEY (TLDID) REFERENCES TimeLineData(TLDID)
+);
+//first
+CREATE TABLE TimeLineType (
+    TLTID int NOT NULL,
+    name varchar(255) NOT NULL,
+	steps int NOT NULL,
+    step1 varchar(255),
+    step2 varchar(255),
+    step3 varchar(255),
+    step4 varchar(255),
+    step5 varchar(255),
+    step6 varchar(255),
+    step7 varchar(255),
+    step8 varchar(255),
+    step9 varchar(255),
+    step10 varchar(255),
+    PRIMARY KEY (TLTID)
+);
+//second
+CREATE TABLE TimeLineData (
+    TLDID int NOT NULL,
+	ServiceID int NOT NULL,
+	ClientID int NOT NULL,
+	TLTID int NOT NULL,
+	status int NOT NULL,
+    PRIMARY KEY (TLDID),
+    FOREIGN KEY (ServiceID) REFERENCES service(ServiceId),
+	FOREIGN KEY (ClientID) REFERENCES clients(ClientID),
+	FOREIGN KEY (TLTID) REFERENCES TimeLineType(tltid)
+);
