@@ -1,0 +1,21 @@
+INSERT INTO workers VALUES ("1","Rodrigo","Monteiro","123456789","265315050","PT57003506518297336485929","1","0");
+
+INSERT INTO parts VALUES ("1","Spark plugs","SPARK PLUG - THREAD Ø10MM","https://motorpoint.pt/en/spark-plugs/18-spark-plug-thread-o10mm-3701225400237.html","3.65","5");
+
+INSERT INTO parts VALUES ("2","Air filter","AIR FILTER - Ø240MM","https://motorpoint.pt/en/air-filters/24-air-filter-o240mm-3700918404293.html","10.90","8");
+
+INSERT INTO parts VALUES ("3","Oil filter","OIL FILTER - THREAD Ø3/4 16UNF","https://motorpoint.pt/en/oil-filters/31-oil-filter-thread-o34-16unf-3700918434238.html","6.75","10");
+
+INSERT INTO parts VALUES ("4","Brake pads","BRAKE PADS - CERAMIC","https://motorpoint.pt/en/brake-pads/48-brake-pads-ceramic-3701069420238.html","29.50","2");
+
+INSERT INTO parts VALUES ("5","Alternator","ALTERNATOR - 14V 120A","https://motorpoint.pt/en/alternators/52-alternator-14v-120a-3700918437154.html","149.90","1");
+
+INSERT INTO parts VALUES ("6","Battery","BATTERY - 12V 45AH","https://motorpoint.pt/en/batteries/63-battery-12v-45ah-3701069404238.html","89.90","4");
+
+INSERT INTO parts VALUES ("7","Radiator","RADIATOR - MANUAL","https://motorpoint.pt/en/radiators/74-radiator-manual-3700918460239.html","69.50","3");
+
+INSERT INTO parts VALUES ("8","Timing belt","TIMING BELT - TOOTHED Ø32MM","https://motorpoint.pt/en/timing-belts/89-timing-belt-toothed-o32mm-3701069405239.html","25.75","9");
+
+INSERT INTO parts VALUES ("9","Suspension system","SHOCK ABSORBER - TWIN-TUBE","https://motorpoint.pt/en/suspension-shock-absorbers/97-shock-absorber-twin-tube-3701069417238.html","49.90","7");
+
+INSERT INTO parts VALUES ("10","Fuel pump","FUEL PUMP - ELECTRIC","https://motorpoint.pt/en/fuel-pumps/105-fuel-pump-electric-3700918466156.html","69.50","3");
